@@ -16,6 +16,7 @@ private:
     string nameOfCourse [3];
     int indexOfGroup[8];
 public:
+
     string returnNameOfCourse();
     string addNameOfCourse();
     string changeNameOfCourse();
