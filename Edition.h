@@ -11,6 +11,7 @@ using namespace std;
 
 class Edition {
 private:
+    int id;
     int nameTag{};
     struct Family{
          string surname;
@@ -33,6 +34,10 @@ public:
     [[nodiscard]]//Если объявленная функция nodiscardили функция, возвращающая перечисление или класс, объявленный nodiscardпо значению
     int returnCountOfPub() const;
     void changeCountOfPub();
+
+    int getId() const;
+
+    void setId(int id);
 };
 
 

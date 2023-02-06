@@ -58,3 +58,11 @@ Edition::Edition(int nameTag) {
     year.publish = pub;
     cin>>countOfPub;
 }
+
+int Edition::getId() const {
+    return id;
+}
+
+void Edition::setId(int id) {
+    Edition::id = id;
+}

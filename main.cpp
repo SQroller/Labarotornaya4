@@ -15,6 +15,8 @@ int main() {
     cin>>nameTag;
     if(nameTag == 0){
         Edition edition(nameTag);
+        Table table();
+        edition.setId(table);
         cout<<"Function: output info, "
     }else
     if(nameTag == 1){
@@ -28,8 +30,6 @@ int main() {
     }else{
         cout<<"Invalid value of number Publishing!!!";
     }
-
-    Table table()
 
     return 0;
 }

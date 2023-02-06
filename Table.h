@@ -11,11 +11,11 @@ using namespace std;
 
 class Table {
 private:
-    map<int,Edition*> table;
+    map<int,Edition> table;
     int cipher;
     Edition edition;
 public:
-    Table(int cipher, const Edition &edition);
+    Table(int cipher, Edition edition);
 
     void add();
     Edition* found(int);
