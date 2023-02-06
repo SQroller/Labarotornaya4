@@ -15,6 +15,8 @@ private:
     int cipher;
     Edition edition;
 public:
+    Table(int cipher, const Edition &edition);
+
     void add();
     Edition* found(int);
     void remove(int);

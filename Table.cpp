@@ -24,3 +24,10 @@ void Table::remove(int cipher) {
 ostream &operator<<(ostream &, Table &) {
     return <#initializer#>;
 }
+
+Table::Table(int cipher, const Edition &edition) : cipher(cipher), edition(edition) {
+    this->cipher = cipher;
+    this->edition = edition;
+    Edition* p = &edition;
+    this->table = table.insert(cipher, p);
+}

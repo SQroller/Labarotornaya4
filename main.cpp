@@ -3,6 +3,7 @@
 #include "ArtEdition.h"
 #include "EduEdition.h"
 #include "ScienEdition.h"
+#include "Table.h"
 
 int main() {
     int nameTag;
@@ -14,6 +15,7 @@ int main() {
     cin>>nameTag;
     if(nameTag == 0){
         Edition edition(nameTag);
+        cout<<"Function: output info, "
     }else
     if(nameTag == 1){
         EduEdition eduedition();
@@ -26,5 +28,8 @@ int main() {
     }else{
         cout<<"Invalid value of number Publishing!!!";
     }
+
+    Table table()
+
     return 0;
 }
