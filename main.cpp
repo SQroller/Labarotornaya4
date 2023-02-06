@@ -24,7 +24,7 @@ int main() {
     if(nameTag == 3){
         ArtEdition artedition();
     }else{
-        cout<<"Invalid value of number Publishing!!!"
+        cout<<"Invalid value of number Publishing!!!";
     }
     return 0;
 }
